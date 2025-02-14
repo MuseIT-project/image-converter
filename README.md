@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on converting images to multimodal representations. It provides functionalities to convert image colors to different, predefined, adjacent colors (see transformations section below)
+This project focuses on converting images to multimodal representations. It provides functionalities to convert image colors to different, predefined, adjacent colors (see transformations section below). It was based on previous work performed on behalf of the University of Boras, by Andreas.
 
 ## Tech stack
 
