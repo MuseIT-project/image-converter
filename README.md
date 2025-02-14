@@ -51,7 +51,7 @@ The `docker-compose.yml` file defines the services for the application. It inclu
 ## Usage
 
 1. Start the container
-2. Go either to `https://localhost:8080/docs/` to access the web Swagger docs or use an endpoint directly.
+2. Go either to `https://localhost:8855/docs/` to access the web Swagger docs or use an endpoint directly.
 3. Submit images for transformations.
 
 ## Transformations available
