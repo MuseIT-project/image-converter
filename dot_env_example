@@ -1,0 +1,6 @@
+# RENAME TO .env
+# ==============
+
+CONTAINER_NAME=image-converter
+PORT=8855
+APPLICATION_DIR=src

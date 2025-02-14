@@ -1,0 +1,18 @@
+services:
+  application:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ${CONTAINER_NAME}
+    image: thomasve/imageconverter:0.1.0
+    command: ["uvicorn", "main:app", "--proxy-headers", "--host", "0.0.0.0", "--port", "${PORT}", "--reload"]
+    volumes:
+      - "./${APPLICATION_DIR}:/root/${APPLICATION_DIR}"
+    ports:
+      - "${PORT}:${PORT}"
+    networks:
+      - prefect
+
+networks:
+  prefect:
+    external: true
